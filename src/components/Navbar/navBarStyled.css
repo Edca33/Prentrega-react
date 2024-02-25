@@ -1,0 +1,30 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: -4px 2px 40px 0px rgba(171,165,165,0.75);
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.navBar h1{
+    color: darkmagenta;
+    font-style: italic;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h1 span{
+    font-size: 15px;
+    
+}
+
+.navBar button{
+    cursor:pointer;
+    font-style: oblique;
+    font-size: 30px;
+    background-color: aliceblue;
+    color: orangered;
+    text-decoration: wavy;
+    text-transform: uppercase;
+}
